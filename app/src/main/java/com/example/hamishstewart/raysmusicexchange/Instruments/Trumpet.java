@@ -32,7 +32,7 @@ public class Trumpet extends Instrument implements Playable, Sellable{
     }
 
     public int getNumberOfValves() {
-        return numberOfValves;
+        return this.numberOfValves;
     }
 
 

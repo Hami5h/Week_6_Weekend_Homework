@@ -22,14 +22,14 @@ public class TrumpetValve implements Sellable {
     }
 
     public String getType() {
-        return type;
+        return this.type;
     }
 
     public double getPurchasePrice() {
-        return purchasePrice;
+        return this.purchasePrice;
     }
 
     public double getSalePrice() {
-        return salePrice;
+        return this.salePrice;
     }
 }

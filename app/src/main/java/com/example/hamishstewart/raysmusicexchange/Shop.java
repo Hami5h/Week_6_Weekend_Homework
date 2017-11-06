@@ -26,7 +26,7 @@ public class Shop {
     }
 
     public int getStockLevel() {
-        return stock.size();
+        return this.stock.size();
     }
 
     public void removeFromStock(Sellable item) {

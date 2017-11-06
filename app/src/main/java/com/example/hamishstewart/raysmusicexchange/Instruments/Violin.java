@@ -30,7 +30,7 @@ public class Violin extends Instrument implements Playable, Sellable {
     }
 
     public int getNumberOfStrings() {
-        return numberOfStrings;
+        return this.numberOfStrings;
     }
 
 }

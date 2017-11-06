@@ -6,7 +6,7 @@ package com.example.hamishstewart.raysmusicexchange.Instruments;
  */
 
 public abstract class Instrument {
-    double purchasePrice;
+    double  purchasePrice;
     double salePrice;
     String colour;
 
@@ -23,10 +23,10 @@ public abstract class Instrument {
     }
 
     public double getPurchasePrice() {
-        return purchasePrice;
+        return this.purchasePrice;
     }
 
     public double getSalePrice() {
-        return salePrice;
+        return this.salePrice;
     }
 }
