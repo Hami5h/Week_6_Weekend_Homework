@@ -1,12 +1,13 @@
 package com.example.hamishstewart.raysmusicexchange.Instruments;
 
 import com.example.hamishstewart.raysmusicexchange.Behaviours.Playable;
+import com.example.hamishstewart.raysmusicexchange.Behaviours.Sellable;
 
 /**
  * Created by hamishstewart on 03/11/2017.
  */
 
-public class Violin extends Instrument implements Playable {
+public class Violin extends Instrument implements Playable, Sellable {
     private String type;
     private int numberOfStrings;
 
